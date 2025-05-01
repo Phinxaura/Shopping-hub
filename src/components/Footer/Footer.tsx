@@ -1,5 +1,6 @@
+import React from "react";
 import "./Footer.scss";
-const Footer = () => {
+const Footer : React.FC<any> = () => {
   return (
     <footer className = "footer py-5 bg-dark">
         <div className = "container">
